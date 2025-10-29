@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
 import { Header } from './components/Header'
-import Footer from './components/Footer'  // ← Remova as chaves {}
+import Footer from './components/Footer.jsx';
 import { Cardapio } from './pages/Cardapio'
 import { Pedidos } from './pages/Pedidos'
 import { Sobre } from './pages/Sobre'
